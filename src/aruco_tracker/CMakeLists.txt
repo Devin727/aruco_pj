@@ -11,6 +11,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   ${PROJECT_NAME}/aruco_depth_pose.py
   ${PROJECT_NAME}/aligned_depth_pub.py
+  ${PROJECT_NAME}/pickup_controller.py      
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -27,4 +28,4 @@ install(FILES package.xml
   DESTINATION share/${PROJECT_NAME}
 )
 
-ament_package()
+ament_package()   

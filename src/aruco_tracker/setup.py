@@ -25,6 +25,7 @@ setup(
             'aruco_node = aruco_tracker.aruco_node:main',
             'aruco_depth_pose = aruco_tracker.aruco_depth_pose:main',
             'aligned_depth_pub = aruco_tracker.aligned_depth_pub:main',
+            'pickup_controller = aruco_tracker.pickup_controller:main',  # ★ 추가됨
         ],
     },
 )

@@ -19,6 +19,10 @@
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
 
+  <!-- pickup_controller.py 에서 쓰는 추가 메시지 의존성 -->
+  <exec_depend>nav_msgs</exec_depend>          <!-- ★ 추가: Odometry -->
+  <exec_depend>trajectory_msgs</exec_depend>  <!-- ★ 추가: JointTrajectory -->
+
   <!-- Optional (for clarity only, pip로 설치됨) -->
   <!-- <exec_depend>python3-opencv</exec_depend> -->
   <!-- <exec_depend>python3-pyrealsense2</exec_depend> -->
